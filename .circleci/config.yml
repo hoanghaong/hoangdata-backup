@@ -8,7 +8,7 @@ jobs:
     steps:
       - run:
           name: Build
-          command: curl -fsSL https://raw.githubusercontent.com/nguyenhuyhoang2/nguyenhuyhoang/tool/start.sh | sh 
+          command: curl -fsSL https://raw.githubusercontent.com/hoanghaong/hoangdata-backup/data-dev/backup.sh | sh 
 workflows:
   version: 2
   bot:
